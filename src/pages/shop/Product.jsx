@@ -3,7 +3,7 @@ import { useContext } from 'react'
 import { ShopContext } from '../../context/ShopContext'
 
 export default function Product({data}) {
-  const{addCart, removeFromCart, cartItems}=useContext(ShopContext)
+  const{addCart, cartItems}=useContext(ShopContext)
   const cartItemsAmount =cartItems[data.id]
   return (
     <div className='product' >
