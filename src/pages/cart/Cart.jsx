@@ -17,10 +17,13 @@ export default function Cart() {
       </div>
       <div className='cartItems'>
         {Products.map(product=>{
-          if (cartItems[product.id]!==0){
+          
+         if (cartItems[product.id]!==0){
             return <CartItem  data={product} />
-          }
-        })}
+         }
+         return ""
+          
+})}
       </div>
       {totalAmount > 0 ?
       <div className='checkout'>
