@@ -1,0 +1,65 @@
+.hotdeals{
+    /* margin: 0 auto; */
+    padding: 0 auto;
+    width: 1600px;
+    background-color: rgb(59, 58, 58);
+    color: white;
+    margin-top: 50px;
+    
+}
+
+
+.hotdeals__products{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.hottie{
+    width: 300px;
+     display: flex;
+     flex-direction: column;
+     height: auto;
+     margin: 0 auto;
+     padding: 20px;
+     place-items: center;
+
+     
+ }
+ .hottie > img{
+    height: 250px;
+    width: 300px;
+    border: 1px solid  rgb(238, 212, 165);
+    border-radius: 20px;
+    
+ }
+ .hotdeals__title{
+    font-size: 20px;
+    color: white;
+}
+
+.hottie > img:hover{
+    animation: ease-in-out;
+    animation-duration: 2s;
+     
+  }
+
+
+.product__btn{
+background-color:  rgb(238, 212, 165);
+border:0.5px solid silver;
+border-radius: 10px;
+font-weight: 600;
+color: black;
+width: 100px;
+height: 30px;
+}
+
+.product__btn:hover{
+    background-color: black;
+    font-weight: 200;
+    color: white;
+    animation: ease-in-out;
+    animation-duration: 2s;
+}
