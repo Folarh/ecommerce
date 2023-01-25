@@ -3,22 +3,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+     
+    
 }
 
 .cartItem {
-    width: 700px;
     height: 250px;
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-around;
     align-items: center;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     border-radius: 25px;
-    margin: 30px;
+    padding: 20px;
+    
 }
 
 
 .cartItem  img{
-   height: 250px;
+   height: 200px;
    width: 200px;
    border: 1px solid  rgb(238, 212, 165);
    border-radius: 50%;
@@ -32,8 +35,9 @@
 }
 
 .cartItem .description{
-    width: 100px;
     font-size: 20px;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .countHandler{

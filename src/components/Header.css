@@ -6,6 +6,7 @@
     background-image: url("../assets/img8.png");
    background-size: cover;
    background-position: center;
+   margin: 0 auto;
 }
 
 .header__details{
